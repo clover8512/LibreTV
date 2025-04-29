@@ -37,6 +37,18 @@ const API_SITES = {
         api: 'https://tyyszy.com',
         name: '天涯资源',
     },
+    hw8li: {
+        api: 'https://huawei8.live',
+        name: '华为8',
+    },
+    wwzy: {
+        api: 'https://www.wwzy.tv',
+        name: '旺旺资源',
+    },
+    mzzy: {
+        api: 'https://mzzy.me',
+        name: '魔爪资源',
+    },
     ckzy: {
         api: 'https://www.ckzy1.com',
         name: 'CK资源',
