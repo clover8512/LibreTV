@@ -31,6 +31,7 @@ const API_SITES = {
         api: 'https://bfzyapi.com',
         name: '暴风资源',
     }
+            };
 // 添加聚合搜索的配置选项
 const AGGREGATED_SEARCH_CONFIG = {
     enabled: true,             // 是否启用聚合搜索
