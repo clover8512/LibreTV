@@ -22,8 +22,12 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
+        bfzy: {
+        api: 'https://bfzyapi.com',
+        name: '暴风资源',
+    },
     testSource: {
-        api: 'https://bfzyapi.com/api.php/provide/vod',
+        api: '//',
         name: '空内容测试源',
         adult: true
     }
