@@ -22,28 +22,15 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
+    siwa: {
+        api: 'https://siwazyw.tv',
+        name: '丝袜资源',
+        adult: true
+    },
         bfzy: {
         api: 'https://bfzyapi.com',
         name: '暴风资源',
-    },
-    testSource: {
-        api: '//',
-        name: '空内容测试源',
-        adult: true
     }
-    //ARCHIVE https://telegra.ph/APIs-08-12
-};
-
-// 定义合并方法
-function extendAPISites(newSites) {
-    Object.assign(API_SITES, newSites);
-}
-
-// 暴露到全局
-window.API_SITES = API_SITES;
-window.extendAPISites = extendAPISites;
-
-
 // 添加聚合搜索的配置选项
 const AGGREGATED_SEARCH_CONFIG = {
     enabled: true,             // 是否启用聚合搜索
