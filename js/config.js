@@ -22,7 +22,7 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    siwa: {
+        siwa: {
         api: 'https://siwazyw.tv',
         name: '丝袜资源',
         adult: true
