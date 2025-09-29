@@ -22,6 +22,9 @@ RUN npm ci --only=production && npm cache clean --force
 
 # 复制应用文件
 COPY . .
+# 配置PROXY_URL使容器走代理地址
+RUN apk add --no-cache proxychains-ng
+RUN chmod +x /app/run.sh
 
 # 暴露端口
 EXPOSE 8080
@@ -30,5 +33,5 @@ EXPOSE 8080
 HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
   CMD node -e "require('http').get('http://localhost:8080', (res) => { process.exit(res.statusCode === 200 ? 0 : 1) }).on('error', () => process.exit(1))"
 
-# 启动应用
-CMD ["npm", "start"]
+# 设置入口脚本
+ENTRYPOINT ["/app/run.sh"]
