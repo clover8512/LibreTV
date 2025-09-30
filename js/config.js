@@ -22,24 +22,19 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
+    siwa: {
+    api: 'https://siwazyw.tv/api.php/provide/vod/',
+    name: '丝袜资源',
+    },
+    lzi: {
+    api: 'https://cj.lziapi.com/api.php/provide/vod/',
+    name: '量子资源',
+    },
+    bfzy: {
+    api: 'https://bf.xoxowin86cisyap.com/api.php/provide/vod/',
+    name: '暴风资源',
     }
-    //ARCHIVE https://telegra.ph/APIs-08-12
 };
-
-// 定义合并方法
-function extendAPISites(newSites) {
-    Object.assign(API_SITES, newSites);
-}
-
-// 暴露到全局
-window.API_SITES = API_SITES;
-window.extendAPISites = extendAPISites;
-
-
 // 添加聚合搜索的配置选项
 const AGGREGATED_SEARCH_CONFIG = {
     enabled: true,             // 是否启用聚合搜索
