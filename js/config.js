@@ -23,12 +23,12 @@ const SITE_CONFIG = {
 // API站点配置
 const API_SITES = {
         siwa: {
-        api: 'https://siwazyw.tv',
+        api: 'https://siwazyw.tv/api.php/provide/vod/',
         name: '丝袜资源',
         adult: true
     },
         bfzy: {
-        api: 'https://bfzyapi.com',
+        api: 'https://bf.xoxowin86cisyap.com/api.php/provide/vod/',
         name: '暴风资源',
     }
 };
