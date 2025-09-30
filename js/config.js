@@ -22,14 +22,17 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-        siwa: {
-        api: 'https://siwazyw.tv/api.php/provide/vod/',
-        name: '丝袜资源',
-        adult: true
+    siwa: {
+    api: 'https://siwazyw.tv/api.php/provide/vod/',
+    name: '丝袜资源',
     },
-        bfzy: {
-        api: 'https://bf.xoxowin86cisyap.com/api.php/provide/vod/',
-        name: '暴风资源',
+    lzi: {
+    api: 'https://cj.lziapi.com/api.php/provide/vod/',
+    name: '量子资源',
+    },
+    bfzy: {
+    api: 'https://bf.xoxowin86cisyap.com/api.php/provide/vod/',
+    name: '暴风资源',
     }
 };
 // 添加聚合搜索的配置选项
