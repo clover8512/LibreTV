@@ -20,7 +20,7 @@ const SITE_CONFIG = {
     version: '1.0.3'
 };
 
-const API_SITES = {Expand commentComment on line R24Code has comments. Press enter to view.
+const API_SITES = {
     dyttzy: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: '电影天堂资源',
